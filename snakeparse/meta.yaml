@@ -1,5 +1,5 @@
-{% set version="0.0.1a" %}
-{% set tag="9e92726" %}
+{% set version="0.0.1b" %}
+{% set tag="949b1ea" %}
 about:
     home: https://github.com/nh13/snakeparse
     license: MIT
@@ -16,7 +16,7 @@ build:
 source:
   fn: {{ tag }}.tar.gz
   url: https://github.com/nh13/snakeparse/archive/{{ tag }}.tar.gz
-  sha256: f1f5e09ac29c883e73045db7ddee5aec60009c9859da65782b77efd5309feb49 
+  sha256: 819c221183409980e51a4b4425628a0d506ba1d03de5c89e2725679d9d76dc97
 requirements:
   build:
     - python
@@ -30,5 +30,3 @@ requirements:
 test:
     imports:
         - snakeparse
-    commands:
-        - 'snakeparse 2>&1 | grep "^Usage"'
