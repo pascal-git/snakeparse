@@ -1,5 +1,5 @@
 {% set version="0.0.1c" %}
-{% set tag="b7cc6fa" %}
+{% set tag="4c5c3ed" %}
 about:
     home: https://github.com/nh13/snakeparse
     license: MIT
@@ -16,7 +16,7 @@ build:
 source:
   fn: {{ tag }}.tar.gz
   url: https://github.com/nh13/snakeparse/archive/{{ tag }}.tar.gz
-  sha256: 02d2df97f47ca54ce2366800850ca3d53a37076907b76ddcd8540d4303217534
+  sha256: e12b94a8de0b4d213ca2d611ffa08d136a73345b65837d4d48d9b79071380845
 requirements:
   build:
     - python
